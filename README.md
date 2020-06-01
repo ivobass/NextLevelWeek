@@ -10,8 +10,7 @@ Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.
 
 📌 Sobre o Ecoleta - Seu marketplace de coleta de resíduos.
 ------------------
-O projeto foi ministrado por <a href="https://github.com/maykbrito">Maiky Brito</a>, instrutor da <a href="http://rocketseat.com.br">Rocketseat</a> e seu desenvolvimento ocorreu durante a semana OmniStack 11. A aplicação surgiu com o objetivo de ajudar pessoas a poderem ter onde guardar suas ideias de uma maneira amigável e simples. 
-
+O projeto foi ministrado por <a href="https://github.com/maykbrito">Maiky Brito</a>, instrutor da <a href="http://rocketseat.com.br">Rocketseat</a> e esta motivado na semana do ambiente. Uma semana para descobrir na prática o método que vai acelerar sua evolução e te levar para o próximo nível. 
 
 <img src="assets/home.png" alt="page-home">
 <img src="assets/cadastro.png" alt="page-cadastro">
