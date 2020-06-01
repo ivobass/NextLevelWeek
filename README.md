@@ -5,10 +5,10 @@
 
 
 <p align="center">
-Um caderninho de anotações de estilo amigável. Perfeito para guardar suas ideias
+Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.
 </p>
 
-📌 Sobre o Casa Criativa - Ideias para a crise
+📌 Sobre o Ecoleta - Seu marketplace de coleta de resíduos.
 ------------------
 O projeto foi ministrado por <a href="https://github.com/maykbrito">Maiky Brito</a>, instrutor da <a href="http://rocketseat.com.br">Rocketseat</a> e seu desenvolvimento ocorreu durante a semana OmniStack 11. A aplicação surgiu com o objetivo de ajudar pessoas a poderem ter onde guardar suas ideias de uma maneira amigável e simples. 
 
