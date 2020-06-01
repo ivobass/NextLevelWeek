@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img width="600" src="backup/titulo.png" />
+    <img width="600" src="assets/titulo.png" />
 </h1>
 
 
@@ -13,10 +13,10 @@ Um caderninho de anotações de estilo amigável. Perfeito para guardar suas ide
 O projeto foi ministrado por <a href="https://github.com/maykbrito">Maiky Brito</a>, instrutor da <a href="http://rocketseat.com.br">Rocketseat</a> e seu desenvolvimento ocorreu durante a semana OmniStack 11. A aplicação surgiu com o objetivo de ajudar pessoas a poderem ter onde guardar suas ideias de uma maneira amigável e simples. 
 
 
-<img src="assets/home.PNG" alt="page-home">
-<img src="assets/cadastro.PNG" alt="page-cadastro">
-<img src="assets/buscar.PNG" alt="page-buscar">
-<img src="assets/lista.PNG" alt="page-lista">
+<img src="assets/home.png" alt="page-home">
+<img src="assets/cadastro.png" alt="page-cadastro">
+<img src="assets/buscar.png" alt="page-buscar">
+<img src="assets/lista.png" alt="page-lista">
 
 🔧 Tecnologias utilizadas:
 ------------------
