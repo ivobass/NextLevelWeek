@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img width="600" src="backup/logo.png" />
+    <img width="600" src="backup/titulo.png" />
 </h1>
 
 
@@ -14,8 +14,9 @@ O projeto foi ministrado por <a href="https://github.com/maykbrito">Maiky Brito<
 
 
 <img src="assets/home.PNG" alt="page-home">
-<img src="assets/add-idea.PNG" alt="page-new-idea">
-<img src="assets/ver-idea.PNG" alt="page-view-idea">
+<img src="assets/cadastro.PNG" alt="page-cadastro">
+<img src="assets/buscar.PNG" alt="page-buscar">
+<img src="assets/lista.PNG" alt="page-lista">
 
 🔧 Tecnologias utilizadas:
 ------------------
@@ -31,16 +32,9 @@ O projeto foi ministrado por <a href="https://github.com/maykbrito">Maiky Brito<
 Obrigado por chegar até aqui! Este projeto foi feito com muito ❤
 
 
-Aqui pode ver os videos do projecto:
-
-https://www.youtube.com/playlist?list=PL85ITvJ7FLohGTWaE_p0J6B-TLmQbN4ka
 
 
 
-
-
-<p align="center">
-A estrutura desse README foi desenvolvida por <a href="https://github.com/liandro-wesley">Liandro Wesley</a>,  que me ensinou a utilizar o <a href="https://www.markdownguide.org"><strong>MARKDOWN</strong></a>
 
 
 
