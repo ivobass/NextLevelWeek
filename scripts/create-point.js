@@ -1,3 +1,4 @@
+
 function populateUFs() {
     const ufSelect = document.querySelector("select[name=uf]")
 
@@ -7,28 +8,35 @@ function populateUFs() {
         .then(states => {
 
             for (const state of states) {
-                ufSelect.innerHTML += `<option value="${state.id}">${stade.nome}</option>`
+                ufSelect.innerHTML += `<option value="${state.id}">${state.nome}</option>`
             }
         })
 }
 
-poputalteUSs()
+populateUSs()
 
 
 function getCities(event) {
-    const citySelect = document.querySelector("[name=city]")
-    const stateInput = document.querySelector("[name=state]")
+    const citySelect = document.querySelector("select[name=city]")
+    const stateInput = document.querySelector("input[name=state]")
 
 
+
+    // const ufValue = event.target.value
+
+
+    const indexOfSelectedState = event.target.selectedIndex
+    stateInput.value = event.target.options[indexOfSelectedState].text
 
     const ufValue = event.target.value
 
 
-    const indexOfSelectedState = event.target.selectedIndex
-    stateInput.value = event.target.options[indexOfSelectedState]
+    const url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${ufValue}/municipios`
+
+    // citySelect.innerHTML = "<option value>Selecione a Cidade</option>"
+    // citySelect.disabled = true
 
 
-    const url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/33/municipios`
 
     fetch(url)
         // .then( (res) => { return res.json() })   pode resumir o codigo quando tem so um valor (res)
@@ -45,8 +53,14 @@ function getCities(event) {
 
 }
 
+// document.querySelector("select[name=uf]")
+//     .addEventListener("change", () => {
+//         addEventListener.log("mudei", getCities)
+//     })
 
-documento.querySelector("select[name=uf]")
-    .addEventListener("change", () => {
-        addEventListener.log("mudei", getCities)
-    })
+
+// depois fica assim:
+
+document.querySelector("select[name=uf]")
+    .addEventListener("change", getCities)
+

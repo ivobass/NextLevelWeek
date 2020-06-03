@@ -24,7 +24,6 @@
 
 #page-create-point header a span {
     margin-left: 16px;
-    display: flex;
     background-image: url('/assets/arrow-left.svg');
     display: flex;
     width: 20px;
@@ -68,8 +67,7 @@ form .field-group {
     display: flex;
 }
 
-form input,
-form select {
+form input, form select {
     background-color: #f0f0f5;
     border: 0;
     padding: 16px 24px;
@@ -104,6 +102,7 @@ form button {
     border: 0;
     margin-top: 40px;
     transition: 400ms;
+    /*tempo de animação do hover*/
 }
 
 form button:hover {
