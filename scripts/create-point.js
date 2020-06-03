@@ -13,7 +13,7 @@ function populateUFs() {
         })
 }
 
-populateUSs()
+populateUFs()
 
 
 function getCities(event) {
