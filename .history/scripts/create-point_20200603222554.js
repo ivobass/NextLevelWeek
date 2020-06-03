@@ -103,4 +103,3 @@ if (alreadySelected >= 0) {
 }
 
 // atualizar o campo escondido com os itns selecionados
-collectedItems.value = selectedItems

@@ -130,21 +130,3 @@ form button:hover {
     text-align: center;
     cursor: pointer;
 }
-
-.items-grid li span {
-    margin-top: 12px;
-    flex: 1;
-    display: flex;
-    align-items: center;
-    color: var(--title-color);
-}
-
-.items-grid li.selected {
-    background: #e1faec;
-    border: 2px solid #34cb79;
-}
-
-.items-grid li img,
-.items-grid li span {
-    pointer-events: none;
-}

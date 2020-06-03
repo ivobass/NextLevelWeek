@@ -20,7 +20,6 @@ function getCities(event) {
     const stateInput = document.querySelector("input[name=state]")
 
     const ufValue = event.target.value
-
     const indexOfSelectedState = event.target.selectedIndex // akie pega o index ou indice do elemento selecionado dentro do conjunto
     stateInput.value = event.target.options[indexOfSelectedState].text
 
@@ -35,9 +34,12 @@ function getCities(event) {
         // .then( (res) => { return res.json() })   pode resumir o codigo quando tem so um valor (res)
         .then(res => res.json())
         .then(cities => {
+
+            citySelect.innerHTML = ""
+
             for (const city of cities) {
                 const citySelect = document.querySelector("[name=city]")
-                citySelect.innerHTML += `<option value="${city.nome}">${city.nome}</option>`
+                citySelect.innerHTML += `<option value="${city.id}">${city.nome}</option>`
             }
             citySelect.disabled = false
         })
@@ -50,57 +52,5 @@ function getCities(event) {
 
 // depois fica assim:
 
-document
-    .querySelector("select[name=uf]")
+document.querySelector("select[name=uf]")
     .addEventListener("change", getCities)
-
-
-// Items de coleta
-// pegar todos os li's
-const itemsToCollect = document.querySelectorAll(".items-grid li")
-
-for (const item of itemsToCollect) {
-    item.addEventListener("click", handleSelectedItem)
-}
-
-const collectedItems = document.querySelector("input[name=items")
-
-let selectedItems = [] // let é uma variavel que pode mudar const nao pode mudar
-
-function handleSelectedItem(event) {
-    const itemLi = event.target
-
-    // adicionar ou remover uma classe com javascript
-    itemLi.classList.toggle("selected")
-
-
-    const itemId = itemLi.dataset.id
-
-}
-
-
-// verificar se existem itens selecoinados, se sim 
-// pegar os itens selcionados
-// pode escrever de forma resumida      
-//  const alreadySelected = selectedItems.findIndex( item => item == itemId)   ou forma completa
-const alreadySelected = selectedItems.findIndex(function(item) {
-    const itemFound = item == itemId // isso sera true ou false
-    return itemFound
-})
-
-// se ja estiver selecionado, tirar da seleçao
-if (alreadySelected >= 0) {
-    //tirar da selação
-    const filteredItems = selectedItems.filter(item => {
-        const itemIsDifferent = item != itemId
-        return itemIsDifferent
-    })
-    selectedItems = filteredItems
-} else {
-    // se não estiver selecionado
-    // adicionar à seleção
-    selectedItems.push(itemId)
-}
-
-// atualizar o campo escondido com os itns selecionados
-collectedItems.value = selectedItems

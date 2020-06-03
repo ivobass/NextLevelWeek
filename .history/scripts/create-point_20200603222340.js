@@ -63,7 +63,6 @@ for (const item of itemsToCollect) {
     item.addEventListener("click", handleSelectedItem)
 }
 
-const collectedItems = document.querySelector("input[name=items")
 
 let selectedItems = [] // let é uma variavel que pode mudar const nao pode mudar
 
@@ -102,5 +101,5 @@ if (alreadySelected >= 0) {
     selectedItems.push(itemId)
 }
 
+
 // atualizar o campo escondido com os itns selecionados
-collectedItems.value = selectedItems
