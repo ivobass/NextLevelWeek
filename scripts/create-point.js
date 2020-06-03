@@ -20,11 +20,7 @@ function getCities(event) {
     const citySelect = document.querySelector("select[name=city]")
     const stateInput = document.querySelector("input[name=state]")
 
-
-
     // const ufValue = event.target.value
-
-
     const indexOfSelectedState = event.target.selectedIndex
     stateInput.value = event.target.options[indexOfSelectedState].text
 
@@ -35,8 +31,6 @@ function getCities(event) {
 
     citySelect.innerHTML = "<option value>Selecione a Cidade</option>"
     citySelect.disabled = true
-
-
 
     fetch(url)
         // .then( (res) => { return res.json() })   pode resumir o codigo quando tem so um valor (res)
@@ -49,15 +43,12 @@ function getCities(event) {
             }
             citySelect.disabled = false
         })
-
-
 }
 
 // document.querySelector("select[name=uf]")
 //     .addEventListener("change", () => {
 //         addEventListener.log("mudei", getCities)
 //     })
-
 
 // depois fica assim:
 
