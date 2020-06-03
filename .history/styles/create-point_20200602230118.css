@@ -1,0 +1,39 @@
+#page-create-point {
+    width: 90%;
+    max-width: 1100px;
+    /* height: 100%; */
+    margin: 0 auto;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#page-create-point header {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page-create-point header a {
+    display: flex;
+    color: var( --title-color);
+    font-weight: bold;
+    align-items: center;
+}
+
+#page-create-point header a span {
+    margin-left: 16px;
+    display: flex;
+    background-image: url('/assets/arrow-left.svg');
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+form {
+    background-color: white;
+    margin-top: 80px;
+    /* prenchimento */
+    padding: 64px;
+    border-radius: 8px;
+}
