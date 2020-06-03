@@ -21,7 +21,7 @@ function getCities(event) {
     const stateInput = document.querySelector("input[name=state]")
 
     // const ufValue = event.target.value
-    const indexOfSelectedState = event.target.selectedIndex
+    const indexOfSelectedState = event.target.selectedIndex   // akie pega o index ou indice do elemento selecionado dentro do conjunto
     stateInput.value = event.target.options[indexOfSelectedState].text
 
     const ufValue = event.target.value
