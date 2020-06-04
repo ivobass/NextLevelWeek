@@ -1,3 +1,5 @@
+// practicas Javascript
+
 // comments
 // document.write("Hello")
 
