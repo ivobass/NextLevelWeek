@@ -63,7 +63,7 @@ for (const item of itemsToCollect) {
     item.addEventListener("click", handleSelectedItem)
 }
 
-const collectedItems = document.querySelector("input[name=items")
+const collectedItems = document.querySelector("input[name=items]")
 
 let selectedItems = [] // let é uma variavel que pode mudar const nao pode mudar
 
@@ -83,7 +83,7 @@ function handleSelectedItem(event) {
 // pegar os itens selcionados
 // pode escrever de forma resumida      
 //  const alreadySelected = selectedItems.findIndex( item => item == itemId)   ou forma completa
-const alreadySelected = selectedItems.findIndex(function(item) {
+const alreadySelected = selectedItems.findIndex(function (item) {
     const itemFound = item == itemId // isso sera true ou false
     return itemFound
 })
