@@ -27,7 +27,7 @@
     background-image: url('/assets/arrow-left.svg');
     display: flex;
     width: 20px;
-    height: 20px;
+    height: 24px;
 }
 
 form {
@@ -67,8 +67,7 @@ form .field-group {
     display: flex;
 }
 
-form input,
-form select {
+form input, form select {
     background-color: #f0f0f5;
     border: 0;
     padding: 16px 24px;
@@ -144,7 +143,6 @@ form button:hover {
     border: 2px solid #34cb79;
 }
 
-.items-grid li img,
-.items-grid li span {
+.items-grid li img, .items-grid li span {
     pointer-events: none;
 }

@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultado da pesquisa</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght:wght@300;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/search-results.css">
     <link rel="stylesheet" href="/styles/responsive.css">
@@ -20,105 +21,41 @@
 
         <header>
             <img src="/assets/logo.svg " alt="logomarca">
-            <a href=""><span></span>Voltar para home </a>
+            <a href="/"><span></span>Voltar para home </a>
 
         </header>
-        <form action="">
-            <h1>Cadastro do ponto de coleta</h1>
+        <main>
 
-            <fieldset>
-                <legend>
-                    <h2>Dados da entidade</h2>
-                </legend>
-                <div class="field">
-                    <label for="">Nome da entidade</label>
-                    <input type="text" name="name" required>
+            <h4>
+                <strong>2 pontos</strong> encontrados
+            </h4>
+            <div class="cards">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1528323273322-d81458248d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                        alt="Colectoria">
+                    <h1>Colectoria</h1>
+                    <h3>Resíduos Eletrónicos, Lâmpadas</h3>
+                    <p>Rio do Sul, Santa Catarina <br />
+                        Guilherme Gemballa, Jardmin América <br />
+                        Nº 260
+                    </p>
                 </div>
-                <div class="field-group">
-                    <div class="field">
-                        <label for="address">Endereço</label>
-                        <input type="text" name="address" required>
-
-                    </div>
-                    <div class="field">
-                        <label for="address">Numero/Complemento </label>
-                        <input type="text" name="address2" required>
-                    </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1567393528677-d6adae7d4a0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                        alt="Colectoria">
+                    <h1>Papersider</h1>
+                    <h3>Papéis e Papelão</h3>
+                    <p>Rio do Sul, Santa Catarina <br />
+                        Guilherme Gemballa, Jardmin América <br />
+                        Nº 260
+                    </p>
                 </div>
+            </div>
 
 
-                <div class="field-group">
-                    <div class="field">
-                        <label for="state">Estado </label>
-                        <select name="uf">
-                            <option value="">Selecione o Estado</option>
-                        </select>
-                        <input type="hidden" name="state" required>
-
-                    </div>
-                    <div class="field">
-                        <label for="city">Cidade</label>
-                        <select name="city" disabled required>
-                            <option value="">Selecione a Cidade</option>
-                        </select>
-
-                    </div>
-
-                </div>
-
-            </fieldset>
-
-
-
-
-
-            <fieldset>
-                <legend>
-                    <h2>Ítens de coleta</h2>
-                </legend>
-
-                <div class="items-grid">
-                    <!-- basta escrever para o emmet:    li>img>span         e aparece  <li><img src="" alt="" class="spam"></li>     automatico -->
-                    <!-- seleciona a palavra com a tecla optoin e mantem carregado e depois command D e consegue escrever e subtituir as palavras selecionadas ao mesmo tempo. -->
-                    <li data-id="1">
-                        <img src="/assets/lampadas.svg" alt="lampadas">
-                        <span>Lãmpadas</span>
-                    </li>
-                    <li data-id="2">
-                        <img src="/assets/baterias.svg" alt="Pilhas e Baterias">
-                        <span>Pilhas e Baterias</span>
-                    </li>
-                    <li data-id="3">
-                        <img src="/assets/papeis-papelao.svg" alt="Papéis e Papelão">
-                        <span>Papéis e Papelão</span>
-                    </li>
-                    <li data-id="4">
-                        <img src="/assets/eletronicos.svg" alt="Resídous Eletrónicos">
-                        <span>Resídous Eletrónicos</span>
-                    </li>
-                    <li data-id="5">
-                        <img src="/assets/organicos.svg" alt="Resíduos Orgánicos">
-                        <span>Resíduos Orgánicos</span>
-                    </li>
-                    <li data-id="6">
-                        <img src="/assets/oleo.svg" alt="Óleo de Cozinha">
-                        <span>Óleo de Cozinha</span>
-                    </li>
-                </div>
-
-                <input type="hidden" name="items">
-
-            </fieldset>
-
-            <button type="submit">Cadastras ponto de coleta</button>
-
-        </form>
-
+        </main>
 
     </div>
-
-
-    <script src="/scripts/create-point.js"></script>
 
 </body>
 
