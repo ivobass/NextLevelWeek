@@ -1,0 +1,26 @@
+{
+    "name": "nwl",
+    "version": "1.0.0",
+    "description": "<h1 align=\"center\">     <img width=\"800\" src=\"assets/titulo.png\" /> </h1>",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "nodemon src/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ivobass/NextLevelWeek.git"
+    },
+    "keywords": [],
+    "author": "Ivo Baptista",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ivobass/NextLevelWeek/issues"
+    },
+    "homepage": "https://github.com/ivobass/NextLevelWeek#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}

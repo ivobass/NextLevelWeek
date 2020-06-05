@@ -1,0 +1,67 @@
+{%estends "layout.html" %}}
+
+
+
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<!--
+    HTML
+
+    Hypertext
+        hiper texto
+
+
+    Markup
+        Marcação de texto
+
+
+    Language 
+        Linguagem
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <!--aceita caracteres especiais-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecoleta</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/modal.css">
+
+    <link rel="stylesheet" href="/styles/responsive.css">
+
+</head>
+
+<body>
+
+    <div id="page-home">
+
+        <div class="content red">
+
+            <header>
+                <img src="/assets/logo.svg" alt="logomarca">
+                <!-- isto     <a href="/create-point.html">  </a>       faz com que o botão va para pagina de criar os dados -->
+                <a href="/create-point"><span></span>Cadastre um ponto de coleta </a>
+
+            </header>
+
+            <main>
+
+                <h1>Seu Marketplace de coleta de resíduos
+                </h1>
+                <p>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</p>
+
+                <a href=""><span></span><strong>Pesquisar pontos de coleta</strong></a>
+            </main>
+        </div>
+    </div>
+
+    {% include "partials/modal.html"%}
+
+    <script src="/scripts/index.js"></script>
+</body>
+
+</html>
