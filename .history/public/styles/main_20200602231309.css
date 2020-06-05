@@ -28,9 +28,8 @@ h3,
 h4,
 h5,
 h6 {
-    /* --title-color: #322153; */
+    --title-color: #322153;
     font-family: 'Ubuntu', sans-serif;
-    color: var(--title-color);
 }
 
 

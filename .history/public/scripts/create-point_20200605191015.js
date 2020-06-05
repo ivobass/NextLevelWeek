@@ -94,7 +94,7 @@ const alreadySelected = selectedItems.findIndex(function(item) {
 if (alreadySelected >= 0) {
     //tirar da selação
     const filteredItems = selectedItems.filter(item => {
-        const itemIsDifferent = item != itemId // false
+        const itemIsDifferent = item != itemId
         return itemIsDifferent
     })
     selectedItems = filteredItems

@@ -36,10 +36,8 @@ function getCities(event) {
         .then(res => res.json())
         .then(cities => {
             for (const city of cities) {
-                // const citySelect = document.querySelector("[name=city]")
+                const citySelect = document.querySelector("[name=city]")
                 citySelect.innerHTML += `<option value="${city.nome}">${city.nome}</option>`
-
-
             }
             citySelect.disabled = false
         })
@@ -85,7 +83,7 @@ function handleSelectedItem(event) {
 // pegar os itens selcionados
 // pode escrever de forma resumida      
 //  const alreadySelected = selectedItems.findIndex( item => item == itemId)   ou forma completa
-const alreadySelected = selectedItems.findIndex(function(item) {
+const alreadySelected = selectedItems.findIndex(function (item) {
     const itemFound = item == itemId // isso sera true ou false
     return itemFound
 })
@@ -94,7 +92,7 @@ const alreadySelected = selectedItems.findIndex(function(item) {
 if (alreadySelected >= 0) {
     //tirar da selação
     const filteredItems = selectedItems.filter(item => {
-        const itemIsDifferent = item != itemId // false
+        const itemIsDifferent = item != itemId
         return itemIsDifferent
     })
     selectedItems = filteredItems
