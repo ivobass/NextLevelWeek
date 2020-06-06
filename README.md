@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img width="800" src="public/assets/titulo.png" />
+    <img width="800" src="public/assets/2560x1080.jpg" />
 </h1>
 
 
