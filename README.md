@@ -7,7 +7,7 @@
 
 
 <p align="center">
-Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.
+NewLevelWeek foi uma experiência online promovido pela Rocketseat, no qual durante 5 dias é desenvolvido uma aplicação completa, 
 </p>
 
 📌 Sobre o Ecoleta - Seu marketplace de coleta de resíduos.
