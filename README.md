@@ -7,7 +7,7 @@
 
 
 <p align="center">
-NewLevelWeek foi uma experiência online promovido pela Rocketseat, no qual durante 5 dias é desenvolvido uma aplicação completa, 
+Foi uma experiência online promovido pela Rocketseat, no qual durante 5 dias aprendemos a desenvolver uma aplicação completa, 
 </p>
 
 📌 Sobre o Ecoleta - Seu marketplace de coleta de resíduos.
