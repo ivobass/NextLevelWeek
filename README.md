@@ -1,9 +1,10 @@
-<h3 align="center">
-    <img alt="Logo" title="#logo" width="200px" src="public/assets/NWL.png">
-    <br><b>Semana <_Next_Level_Week_>, by Rocketseat</b></h3><p align="center"><a href="https://rocketseat.com.br"><img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1"></a>  
 <h1 align="center">
     <img width="800" src="public/assets/2560x1080.jpg" />
 </h1>
+
+<h3 align="center">
+    <img alt="Logo" title="#logo" width="200px" src="public/assets/NWL.png">
+    <br><b>Semana <_Next_Level_Week_>, by Rocketseat</b></h3><p align="center"><a href="https://rocketseat.com.br"><img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1"></a>  
 
 
 <p align="center">
