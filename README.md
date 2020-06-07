@@ -3,9 +3,10 @@
 </h1>
 
 <h3 align="center">
-   
-    <b>Semana <_Next_Level_Week_>, by Rocketseat</b></h3><p align="center"><a href="https://rocketseat.com.br"><img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1"></a>  </br>
+<b>Semana <_Next_Level_Week_>, by Rocketseat</b><
      <img alt="Logo" title="#logo" width="200px" src="public/assets/NWL.png">
+    /h3><p align="center"><a href="https://rocketseat.com.br"><img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1"></a>  </br>
+   
 
 
 <p align="center">
