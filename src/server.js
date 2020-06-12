@@ -98,32 +98,32 @@ server.post("/savepoint", (req, res) => {
 server.get("/search", (req, res) => {
 
 
-        const search = req.query.search
+    const search = req.query.search
 
-        if (search == "") {
-            //pesquisa vazia
-            return res.render("search-results.html", { total: 0 })
+    // if (search == "") {
+    //     //pesquisa vazia
+    //     return res.render("search-results.html", { total: 0 })
 
+    // }
+
+
+    // Carregar os dados do banco de dados
+    db.all(`SELECT * FROM places WHERE city LIKE '%${search}%'`, function (err, rows) { // substituindo o  * por name conseguimos ver so o nome  no SQL passar uma string tem de colocar aspas simples '${search}', colocar LIKE '%${search}%'  LIKE e as % ele pode receber qualquer coisa antes o qualquer coisa depois  
+        if (err) {
+            return console.log(err)
         }
 
+        // console.log("Aqui estão seus registros: ")
+        // console.log(rows)
 
-        // Carregar os dados do banco de dados
-        db.all(`SELECT * FROM places WHERE city LIKE '%${search}%'`, function(err, rows) { // substituindo o  * por name conseguimos ver so o nome  no SQL passar uma string tem de colocar aspas simples '${search}', colocar LIKE '%${search}%'  LIKE e as % ele pode receber qualquer coisa antes o qualquer coisa depois  
-            if (err) {
-                return console.log(err)
-            }
-
-            // console.log("Aqui estão seus registros: ")
-            // console.log(rows)
-
-            const total = rows.length
+        const total = rows.length
 
 
-            // mostrar a página html com os dados do banco de dados
-            return res.render("search-results.html", { places: rows, total: total })
-        })
+        // mostrar a página html com os dados do banco de dados
+        return res.render("search-results.html", { places: rows, total: total })
     })
-    //Importante corrigir todos os <a href=""> de navegação
+})
+//Importante corrigir todos os <a href=""> de navegação
 
 // ligar o servidor
 
