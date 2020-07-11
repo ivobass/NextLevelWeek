@@ -36,8 +36,7 @@ O projeto foi ministrado por <a href="https://github.com/maykbrito">Maiky Brito<
 Obrigado por chegar até aqui! Este projeto foi feito com muito ❤
 
 
-[![LINKEDIN](https://img.shields.io/badge/Linkedin-black?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/vitormalencar)
-
+[![LINKEDIN](https://img.shields.io/badge/Linkedin-black?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ivo-baptista-3712144/)
 
 
 
